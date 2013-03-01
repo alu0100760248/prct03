@@ -1,13 +1,32 @@
-\documentclass[a4paper,10pt]{letter}
+\documentclass[a4paper,12pt]{article}
 \usepackage[utf8]{inputenc}
 \usepackage[spanish]{babel}
 \begin{document}
+\title{Título del artículo}
+\author{Nombre y Apellido \\
+Técnicas Experimentales~\footnote{Universidad de La Laguna}
+}
+\date{\today}
+\maketitle
+
+\begin{abstract}
+En \LaTeX{}~\cite{Lam:86} es sencillo escribir expresiones
+matemáticas como $a=\sum_{i=1}^{3}$
+y deben ser escritas entre lo símbolos \$.
+Los superíndices se obtienen con el símbolo \^{}, y
+los subíndices con el símbolo \_.
+Por ejemplo: $x^2 \times y^{\alpha + \beta}$.
+También se pueden escribir fórmulas centradas:
+\[h^2=a^2 + b^2 \]
+\end{abstract}
+
+\section{Primera sección}
 Si simplememte se desea escribir texto normal en LaTeX,
 sin complicadas f\'ormulas matem\'ticas o efectos especiales
 como cambios de fuente, entonces simplemente tiene que escribir
 en espa\~nol normalmente.
 Si desea cambiar de párrafo ha de dejar una línea en blanco o bien
-utilizar el comando \par.
+utilizar el comando $\\par$.
 No es necesario preocuparse de la sangría de los párrafos:
 todos los párrafosse se sangrarán automáticamente con la excepción
 del primer párrafo de una sección.
@@ -20,4 +39,12 @@ También se ha de tener cuidado con los guiones: se utilizar un único
 guión para la separación de sílabas, mientras que se utilizan
 tres guiones seguidos para producir un guión de los que se usan
 como signo de puntuación --- como en esta oración.
+\begin{thebibliography}{00}
+ \bibitem{Lam:86}
+ Lamport, Leslie.
+ TLA in pictures.
+ \emph{IEEE Trassa
+\end{thebibliography}
+
 \end{document}
+
