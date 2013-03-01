@@ -22,10 +22,10 @@ También se pueden escribir fórmulas centradas:
 \bigskip
 \begin{tabular}{|l|c|c|}
 |hline
-Nombre & Edad & Nota \\hline
-Pepe & 24 & 10 \\hline
-Juan & 19 & 8 \\hline
-Luis & 21 & 9 \\hline
+Nombre & Edad & Nota \\ \hline
+Pepe & 24 & 10 \\ \hline
+Juan & 19 & 8 \\ \hline
+Luis & 21 & 9 \\ \hline
 \end{tabular}
 
 \section{Primera sección}
